@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM nestybox/ubuntu-focal-docker:latest
 
 # Set to false to skip downloading the AMP cache which is used for faster upgrades.
 ARG CACHE_AMP_UPGRADE=true
